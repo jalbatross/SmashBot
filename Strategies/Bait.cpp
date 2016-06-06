@@ -425,6 +425,11 @@ void Bait::DetermineTactic()
         m_state->m_memory->player_one_action == SHIELD ||
         m_state->m_memory->player_one_action == SHIELD_START ||
         m_state->m_memory->player_one_action == SHIELD_REFLECT ||
+        m_state->m_memory->player_one_action == NAIR_LANDING ||
+        m_state->m_memory->player_one_action == FAIR_LANDING ||
+        m_state->m_memory->player_one_action == UAIR_LANDING ||
+        m_state->m_memory->player_one_action == BAIR_LANDING ||
+        m_state->m_memory->player_one_action == DAIR_LANDING ||
         m_state->isDamageState((ACTION)m_state->m_memory->player_one_action))
     {
         CreateTactic2(CloseDistance, true);
