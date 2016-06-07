@@ -1,0 +1,8 @@
+
+
+1. identify atk
+2. identify frame of atk
+3. identify dangerzone of atk
+4. if not in dangerzone of atk on that frame, return ESCAPE
+5. if in dangerzone
+6.    powershield asap
